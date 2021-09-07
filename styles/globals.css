@@ -1,0 +1,54 @@
+html,
+body {
+    padding: 10px;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+a {
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.padded {
+    padding: 10px;
+}
+nav > ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav > ul > li {
+    background: tomato;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#tags {
+    width: 200px;
+    background: yellowgreen;
+}
+#tags ul {
+    margin: 0;
+}
+#tags li {
+    margin-bottom: 10px;
+}
+
+#list {
+    background: thistle;
+    flex-grow: 1;
+}
+
+#list .link {
+    margin-bottom: 20px;
+}
