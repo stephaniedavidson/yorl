@@ -8,7 +8,6 @@ import Tags from "../components/Tags";
 function Landing() {
     return (
         <>
-            <Nav />
             <div id="wrapper">
                 <Tags />
                 <List />
